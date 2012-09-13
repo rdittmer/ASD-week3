@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Times>
+	<item>
+		<Course>Course: Course 1</Course>
+		<Reservist>Reservist: Tim Cald</Reservist>
+		<NumberofGames>Number of Games: 2</NumberofGames>
+		<Location>Location: Front 9</Location>
+		<Date>Date: 07/13/2012</Date>
+		<Notes>Notes: none</Notes>
+	</item>
+	<item>
+		<Course>Course: Course 3</Course>
+		<Reservist>Reservist: Jim Car</Reservist>
+		<NumberofGames>Number of Games: 1</NumberofGames>
+		<Location>Location: Back 9</Location>
+		<Date>Date: 07/17/2012</Date>
+		<Notes>Notes: none</Notes>
+	</item>
+	<item>
+		<Course>Course: Course 2</Course>
+		<Reservist>Reservist: Sherry Tiley</Reservist>
+		<NumberofGames>Number of Games: 1</NumberofGames>
+		<Location>Location: All 18</Location>
+		<Date>Date: 07/24/2012</Date>
+		<Notes>Notes: none</Notes>
+	</item>
+	<item>
+		<Course>Course: Course 5</Course>
+		<Reservist>Reservist: Ares Hacklim</Reservist>
+		<NumberofGames>Number of Games: 1</NumberofGames>
+		<Location>Location: All 18</Location>
+		<Date>Date: 07/18/2012</Date>
+		<Notes>Notes: none</Notes>
+	</item>
+	<item>
+		<Course>Course: Course 4</Course>
+		<Reservist>Reservist: Jerry Malk</Reservist>
+		<NumberofGames>Number of Games: 1</NumberofGames>
+		<Location>Location: Front 9</Location>
+		<Date>Date: 07/28/2012</Date>
+		<Notes>Notes: none</Notes>
+	</item>
+</Times>
