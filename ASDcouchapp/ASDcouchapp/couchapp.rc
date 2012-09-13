@@ -2,6 +2,9 @@
   "env": {
     "local": {
       "db": "http://127.0.0.1:5984/asd_week3"
+    },
+    "cloudant": {
+      "db": "https://rdittmer:murphy31@rdittmer.cloudant.com/asd_week3"
     }
   }
 }
