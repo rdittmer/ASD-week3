@@ -2,6 +2,44 @@ $('#index').on('pageinit', function(){
 	//code needed for home page goes here
 });	
 
+$( '#couchData' ).on('pageinit', function(){
+	 
+	 $( '#couchJsonButton' ).on( 'click', function () {
+		$('#viewData').empty();
+        $.ajax( {
+            url: '_view/times',
+            type: 'GET',
+            dataType: 'json',
+            success:function ( result ) {
+				//console.log(result);
+                $.each( result.rows, function( index, times ){
+					console.log(times);
+                	/*var options     = times.Options;
+                	var reservist   = reservist;
+                	var numberGames = numberGames;
+                	var location    = location;
+                	var date        = date;
+                	var notes       = notes;
+                   
+					console.log(options);
+                    $( ' ' + 
+					'<div class="times">' +
+					'<p>' + Options[0]      + " " + Options[1] +
+					'<br>' + reservist[0]   + " " + reservist[1] + 
+					'<br>' + numberGames[0] + " " + numberGames[1] + 
+					'<br>' + location[0]    + " " + location[1] +
+					'<br>' + date[0]        + " " + date[1] +
+					'<br>' + notes[0]       + " " + notes[1] + '</p>' +
+					'</div>'
+					).appendTo( '#viewData' );*/
+                
+			
+		});
+			}
+    });
+});
+});
+
 $( '#remoteData' ).on('pageinit', function(){
 	 
 	 $( '#jsonButton' ).on( 'click', function () {

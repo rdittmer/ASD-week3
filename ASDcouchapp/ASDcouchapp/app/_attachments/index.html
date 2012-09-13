@@ -26,6 +26,7 @@
   <a href="#additem"><img src="img/golf1.png" align="absmiddle" hspace="15%"/></a>
   <a href="#newsStream" data-role="button" data-inset="true">Upcoming Tee Times</a>
   <a href="#remoteData" data-role="button" data-inset="true" data-ajax="true">Remote Data</a>
+  <a href="#couchData" data-role="button" data-inset="true" data-ajax="true">CouchDb Data</a>
   <div data-role="fieldcontain">
     <input type="search" name="searchInput" id="searchInput" value=""/>
   </div>
@@ -335,6 +336,35 @@
     	<div data-role="button" id="jsonButton" data-inline="true" data-ajax="true">View JSON</div>
         <div data-role="button" id="xmlButton" data-inline="true">View XML</div>
         <div data-role="button" id="csvButton" data-inline="true">View CSV</div>
+    </div>
+    
+    <div data-role="footer">
+
+	<h1>  </h1>
+    
+    <div data-role="navbar">
+		<ul>
+			<li><a href="index.html" class="ui-btn-active" data-ajax="false">Home</a></li>
+			<li><a href="http://rdittmer.github.com/ASD-week2/Bronze/index.html" data-ajax="false">Bronze App</a></li>
+            <li><a href="http://rdittmer.github.com/ASD-week2/index.html" data-ajax="false">Gh-Pages</a></li>
+		</ul>
+	</div>
+
+  </div>
+</div>
+
+<div data-role="page" id="couchData" data-add-back-btn="true" >
+	<div data-role="header" align="center">
+    <span><h3>View Remote Couch Data<img src="img/logo2.png" width="40" height="40" /></h3></span>
+  </div>
+
+	<div data-role="content" id="couchContent">
+    
+    	<div data-role="fieldcontain" id="viewCouchData">
+    	
+        </div>
+        
+    	<div data-role="button" id="couchJsonButton" data-inline="true" data-ajax="true">View Couch Data</div>
     </div>
     
     <div data-role="footer">
